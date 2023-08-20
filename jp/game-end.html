@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="../favicon.png" />
+		<meta name="viewport" content="width=device-width" />
+		
+		<link rel="modulepreload" href="../_app/immutable/entry/start.b635d2f4.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/scheduler.b74d2183.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/singletons.33274246.js">
+		<link rel="modulepreload" href="../_app/immutable/entry/app.f7837f87.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/index.8be64ad0.js">
+		<link rel="modulepreload" href="../_app/immutable/nodes/0.d772df72.js">
+		<link rel="modulepreload" href="../_app/immutable/nodes/4.be30db8b.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/players.adb9ee9f.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/navigation.6489c892.js">
+	</head>
+	<body data-sveltekit-preload-data="hover">
+		<div style="display: contents">  <h1 data-svelte-h="svelte-dqzq6b">ゲーム終了！！！</h1> <ul><li style="background-color:#595455"><span>プレイヤー1</span> <span>丼鼠（どぶねずみ）</span> <span>ゴールしていません！（0マス目で終了）</span> </li></ul> <button data-svelte-h="svelte-1ijaotn">もう一回プレイする！</button> <button data-svelte-h="svelte-ul1v35">最初に戻る</button> 
+			
+			<script>
+				{
+					__sveltekit_1inrhbz = {
+						base: new URL("..", location).pathname.slice(0, -1),
+						env: {}
+					};
+
+					const element = document.currentScript.parentElement;
+
+					const data = [null,null];
+
+					Promise.all([
+						import("../_app/immutable/entry/start.b635d2f4.js"),
+						import("../_app/immutable/entry/app.f7837f87.js")
+					]).then(([kit, app]) => {
+						kit.start(app, element, {
+							node_ids: [0, 4],
+							data,
+							form: null,
+							error: null
+						});
+					});
+				}
+			</script>
+		</div>
+	</body>
+</html>
