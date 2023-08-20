@@ -3,6 +3,7 @@
   import { players } from "../players.js";
   import { name, hex } from "../square/quizzes.js";
   import { reset } from "./reset.js";
+  import { base } from "$app/paths";
 </script>
 
 <h1>ゲーム終了！！！</h1>
@@ -25,4 +26,4 @@
     goto("/jp");
   }}>もう一回プレイする！</button
 >
-<button on:click={() => goto("/")}>最初に戻る</button>
+<button on:click={() => goto(base + "/")}>最初に戻る</button>

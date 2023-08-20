@@ -5,6 +5,7 @@
   import Next from "./next.svelte";
   import Modal from "./modals/modals.svelte";
   import { goto } from "$app/navigation";
+  import { base } from "$app/paths";
   let answering = false;
   let player = getAvailablePlayer();
   let goaled = player?.goaled;
@@ -35,7 +36,7 @@
   </div>
 </div>
 <Modal bind:showQuiz={answering} {player} />
-<button on:click={() => goto("/")}>戻る</button>
+<button on:click={() => goto(base + "/")}>戻る</button>
 
 <style>
   h1 {

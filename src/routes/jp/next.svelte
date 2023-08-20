@@ -5,6 +5,7 @@
   import { hex, name } from "./square/quizzes.js";
   import { debug } from "./mode.js";
   import { goto } from "$app/navigation";
+  import { base } from "$app/paths";
   const dispatch = createEventDispatcher();
 </script>
 
@@ -34,7 +35,7 @@
     const p = getPlayer();
     if (!p.goaled) {
       if (dice() === -1) {
-        goto("/jp/game-end");
+        goto(base + "/jp/game-end");
       }
     }
     dispatch("diced");

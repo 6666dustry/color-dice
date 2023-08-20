@@ -1,12 +1,13 @@
 <script>
   import { goto } from "$app/navigation";
+  import { base } from "$app/paths";
 </script>
 
 <main>
   <h1>色サイコロ</h1>
   <div>
-    <button on:click={() => goto("/jp")}>和色</button>
-    <button on:click={() => goto("/en")} disabled>洋色</button>
+    <button on:click={() => goto(base + "/jp")}>和色</button>
+    <button on:click={() => goto(base + "/en")} disabled>洋色</button>
   </div>
 </main>
 
