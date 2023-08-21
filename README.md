@@ -1,5 +1,5 @@
 # 色すごろく
-色の名前を答えられなければ即スタートに戻されます。
+着いたマスの色の名前を答えられなければ即スタートに戻されるすごろく。
 鬼畜です。
 
 **[Play from HERE!](https://6666dustry.github.io/color-dice/jp)**
@@ -14,6 +14,8 @@
 - もっとわかりやすい視覚効果
 - マルチプレイ
 - 英語版/English Edition
+- 難易度追加(easy,normal,hard,unbelievable)
+- アイコン
 - バグ修正
 - テストコード(Vitest)
 - PWA
