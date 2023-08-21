@@ -17,7 +17,7 @@
 - 難易度追加(easy,normal,hard,unbelievable)
 - アイコン
 - バグ修正
-- テストコード(Vitest)
+- テストコード(Vitest)←作業中
 - PWA
 - 半分までたどり着く
 - クリア
