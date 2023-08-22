@@ -42,3 +42,5 @@ jobs:
         run : |
           git remote set-url origin https://git:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git
           pnpm deploy-self -- -u "github-actions-bot <support+actions@github.com>"
+        env:
+            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
