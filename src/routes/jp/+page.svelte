@@ -37,7 +37,7 @@
 </div>
 <Modal bind:showQuiz={answering} {player} />
 <button on:click={() => goto(base + "/")}>戻る</button>
-
+<p>出典:<a href="https://irocore.com/">伝統色のいろは</a></p>
 <style>
   h1 {
     text-align: center;
