@@ -43,7 +43,10 @@
         on:keydown={(e) => e.preventDefault()}
         href={quiz.getReference()}
         target="_blank"
-        rel="noopener noreferrer">{quiz.getReference()}</a
+        rel="noopener noreferrer"
+        >{`${quiz.getColorName()[0]}(${
+          quiz.getColorName()[1]
+        })とは？：伝統色のいろは`}</a
       >
     </p>
   </div>

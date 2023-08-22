@@ -3,6 +3,7 @@
 鬼畜です。
 
 **[Play from HERE!](https://6666dustry.github.io/color-dice/jp)**
+
 ## 遊び方
 "次に進む"ボタンを押すとサイコロが振られます。
 
@@ -23,5 +24,5 @@
 - クリア
 - ノーミスクリア
 
-## 参照＆引用元
+## 出典
 [伝統色のいろは](https://irocore.com/)
